@@ -137,6 +137,17 @@ letter-spacing: 0.02em;
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    max-width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right, 
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .main-text {
@@ -168,6 +179,8 @@ letter-spacing: 0.02em;
     top: 428px;
 }
 
+/* About */
+
 .invisible-title {
     visibility: hidden;
 }
@@ -186,12 +199,29 @@ letter-spacing: 0.02em;
     width: 264px;
 }
 
+.icon-about {
+    
+    width: 64px;
+    height: 64px;
+}
+
+.bg-icon-about {
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-studio {
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--top-color);
 padding-bottom: 8px;
+padding-top: 8px;
 }
 
 .text-about {
@@ -200,6 +230,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--paragraph-color);
 }
+
+/* Work */
 
 .work {
     padding-bottom: 120px;
@@ -219,6 +251,8 @@ letter-spacing: 0.02em;
 color: var(--top-color);
 margin-bottom: 72px;
 }
+
+/* Team */
 
 .team-section {
     background-color: var(--team-color);
