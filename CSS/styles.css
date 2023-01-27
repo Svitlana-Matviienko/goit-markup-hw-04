@@ -243,7 +243,7 @@ color: var(--paragraph-color);
     justify-content: space-around;
 }
 
-.work-title, .team-title {
+.work-title, .team-title, .custom-title {
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -264,12 +264,40 @@ margin-bottom: 72px;
     display: flex;
     gap: 24px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .work-cards {
     background-color: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+}
+
+.icons-team {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+}
+
+.team-icon {
+    width: 16px;
+}
+
+.circle-team {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+
+.item-social {
+    border-radius: 50%;
+    background-color: var(--button-color);
+
 }
 
 .team-item {
@@ -294,6 +322,41 @@ letter-spacing: 0.02em;
 color: var(--paragraph-color);
 text-align: center;
 }
+
+/* Customers */
+
+.customers {
+padding-top: 130px;
+padding-bottom: 120px;
+}
+
+.custom-items {
+    display: flex;
+    gap: 24px;
+}
+
+.clients:hover>.logo-customers,
+.clients:focus>.logo-customers {
+    fill: var(--top-color);
+}
+
+.clients {
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-customers {
+    width: 104px;
+    height: 56px;
+    fill: red;
+    stroke: blue;
+}
+
 
 
 /* Стилі footer */
