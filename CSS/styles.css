@@ -335,10 +335,7 @@ padding-bottom: 120px;
     gap: 24px;
 }
 
-.clients:hover>.logo-customers,
-.clients:focus>.logo-customers {
-    fill: var(--top-color);
-}
+
 
 .clients {
     width: 168px;
@@ -353,11 +350,8 @@ padding-bottom: 120px;
 .logo-customers {
     width: 104px;
     height: 56px;
-    fill: red;
-    stroke: blue;
+    fill: #8E8F99;
 }
-
-
 
 /* Стилі footer */
 .footer {
@@ -388,6 +382,30 @@ padding-bottom: 120px;
         color: #E7E9FC;
         max-width: 270px;
             }
+
+    .style-sm {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    }
+
+    .social-media {
+        max-width: 210px;
+    }
+
+    .item-social-footer {
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .icons-footer {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
 
 /* Стилі Portfolio */
 
