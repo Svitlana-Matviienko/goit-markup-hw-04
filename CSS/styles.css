@@ -373,6 +373,10 @@ padding-bottom: 120px;
     .log-footer {
         padding-bottom: 16px;
     }
+
+    .footer-flex {
+        display: flex;
+    }
     
     .footer-par {
         font-weight: 400;
@@ -390,16 +394,18 @@ padding-bottom: 120px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding-bottom: 16px;
     }
 
     .social-media {
-        max-width: 210px;
+        padding-left: 120px;
     }
 
     .item-social-footer {
         border-radius: 50%;
         background-color: rgba(255, 255, 255, 0.1);
     }
+
 
     .icons-footer {
         display: flex;
