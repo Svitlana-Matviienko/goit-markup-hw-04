@@ -354,6 +354,7 @@ padding-bottom: 120px;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    color: #8E8F99;
 }
 
 .clients {
@@ -364,6 +365,7 @@ padding-bottom: 120px;
 .partnes:hover,
 .partnes:focus {
    border-color: #404BBF;
+   color: #404BBF;
 }
 
  .logo-customers:hover,
@@ -374,7 +376,7 @@ padding-bottom: 120px;
 .logo-customers {
     width: 104px;
     height: 56px;
-    fill: #8E8F99;
+    fill: currentColor;
 }
 
 /* Стилі footer */
